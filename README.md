@@ -13,9 +13,9 @@ This project is an interactive analysis written in Python language that allows t
 
 ### Files used
 The project uses these data files:
-. `chicago.csv`: Bikeshare data for **Chicago** city.
-. `new_york_city.csv`: Bikeshare data for **New York** city.
-. `washington.csv`: Bikeshare data for **Washington** city.
+- `chicago.csv`: Bikeshare data for **Chicago** city.
+- `new_york_city.csv`: Bikeshare data for **New York** city.
+- `washington.csv`: Bikeshare data for **Washington** city.
 
 ### Credits
 The data was provided by [Motivate](https://motivateco.com/), a bike share system provider for many major cities in the United States.
