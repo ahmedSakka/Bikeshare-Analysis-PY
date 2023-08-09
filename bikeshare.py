@@ -162,7 +162,7 @@ def user_stats(city_data_frame):
     print("User types count:\n", user_type_count)
 
     # TO DO: Display counts of gender if available in the data
-    if 'Gender' in city_data_frame.columns and 'Birth Year' in city_data_fram.columns:
+    if 'Gender' in city_data_frame.columns and 'Birth Year' in city_data_frame.columns:
         gender_count = city_data_frame['Gender'].value_counts()
         NaN_count = city_data_frame['Gender'].isna().sum()
         print("Users' gender count:\n{}, \nUnkown users gender: {}".format(gender_count, NaN_count))
