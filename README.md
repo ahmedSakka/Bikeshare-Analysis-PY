@@ -11,6 +11,18 @@ This project is an interactive analysis written in Python language that allows t
 - Pandas library
 - The data files
 
+### Usage
+1. Run the analysis by running the `main.py` script:
+2. The program will prompt you to select a city to analyze (**Chicago, New York, Washington**).
+3. You will then choose to filter the data by month and day or you can apply no filters at all.
+4. The program will then present statistics and insights based on what you chose above, including:
+- The most frequent times of travel (month, day, hour)
+- The most popular start and end stations
+- Trip duration statistics
+- User statistics, including user types and gender (if available)
+- Raw data display upon request
+5. After viewing the analysis you can choose to restart the analysis to choose another city or exit the program. 
+
 ### Files used
 The project uses these data files:
 - `chicago.csv`: Bikeshare data for **Chicago** city.
